@@ -1,0 +1,48 @@
+body html{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.fond{
+    background-image: url("img.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dispoBouton{
+    display: flex;
+    justify-content: center ;
+}
+
+.btn{
+    font-size: 3em;
+    margin: 5%;
+    background-color: rgba(0, 0, 0, 0.53);
+    border: 3px solid black;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter{
+    color: white;
+}
+
+.word{
+    color: yellow;
+    font-size: 0.3em;
+}
+
+.yellow{
+    border: yellow 5px solid ;
+    transform: scale(120%);
+}
